@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Bóng Đá</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .news {
+            background: white;
+            padding: 15px;
+            margin: 10px auto;
+            width: 80%;
+            box-shadow: 0px 0px 10px gray;
+        }
+        .news img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>Trang Web Bóng Đá</header>
+    <nav>
+        <a href="#">Trang Chủ</a>
+        <a href="#">Tin Tức</a>
+        <a href="#">Lịch Thi Đấu</a>
+        <a href="#">Kết Quả</a>
+        <a href="#">Liên Hệ</a>
+    </nav>
+    <div class="content">
+        <div class="news">
+            <h2>Tin Mới Nhất</h2>
+            <img src="https://via.placeholder.com/800x400" alt="Hình ảnh bóng đá">
+            <p>Thông tin mới nhất về bóng đá sẽ được cập nhật tại đây.</p>
+        </div>
+    </div>
+</body>
+</html>
